@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: net.trycloud.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.517 s <<< FAILURE! - in net.trycloud.runners.FailedTestRunner
+Login as a user(User should be able to login)  Time elapsed: 17.028 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Files - []rycloud> but was:<Files - [T]rycloud>
+
