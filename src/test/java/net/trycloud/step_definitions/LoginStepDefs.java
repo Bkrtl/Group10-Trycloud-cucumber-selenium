@@ -30,6 +30,7 @@ public class LoginStepDefs {
     public void the_user_should_be_able_to_login() {
         BrowserUtils.waitFor(5);
         String actualTitle=Driver.get().getTitle();
-        Assert.assertEquals("Files - Trycloud",actualTitle);
+        String expectedTitle="Files - Trycloud";
+        Assert.assertEquals("Verify that expected title is actual title",actualTitle,expectedTitle);
     }
 }
