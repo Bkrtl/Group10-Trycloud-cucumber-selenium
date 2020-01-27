@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ea530ae-8d59-434f-be27-bdd559838b0c" name="Default Changelist" comment="" />
+    <list default="true" id="2ea530ae-8d59-434f-be27-bdd559838b0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -41,7 +55,7 @@
       <recent name="net.trycloud.utilities" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FailedTestRunner">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Group10-Trycloud-cucumber-selenium" />
       <extension name="coverage">
@@ -57,8 +71,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Group10-Trycloud-cucumber-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.trycloud.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.trycloud.runners" />
+      <option name="MAIN_CLASS_NAME" value="net.trycloud.runners.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
@@ -89,25 +119,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom" timestamp="1579912933663">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579958883201">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1238" height="192" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1579912933663" />
-    <state width="1238" height="192" key="GridCell.Tab.0.center" timestamp="1579912933659">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579958883201" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579958883201">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1238" height="192" key="GridCell.Tab.0.center/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1579912933659" />
-    <state width="1238" height="192" key="GridCell.Tab.0.left" timestamp="1579912933657">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579958883201" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579958883201">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1238" height="192" key="GridCell.Tab.0.left/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1579912933657" />
-    <state width="1238" height="192" key="GridCell.Tab.0.right" timestamp="1579912933661">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579958883201" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579958883201">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1238" height="192" key="GridCell.Tab.0.right/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1579912933661" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579958883201" />
     <state x="178" y="62" key="Maven.ArtifactSearchDialog" timestamp="1579908636696">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="178" y="62" key="Maven.ArtifactSearchDialog/0.0.1280.800/1280.-61.1920.1080@0.0.1280.800" timestamp="1579908636696" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580038721970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580038721970" />
   </component>
 </project>
