@@ -3,12 +3,12 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-01-25T13:08:36.084Z",
+        "start_timestamp": "2020-01-28T13:08:21.340Z",
         "before": [
           {
             "result": {
-              "duration": 1059400,
-              "status": "passed"
+              "duration": 1109200,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.setUp()"
@@ -16,14 +16,14 @@
           }
         ],
         "line": 4,
-        "name": "Login as a user",
+        "name": "navigate to Talk",
         "description": "",
-        "id": "user-should-be-able-to-login;login-as-a-user",
+        "id": "navigation-menu;navigate-to-talk",
         "after": [
           {
             "result": {
-              "duration": 739354400,
-              "status": "passed"
+              "duration": 60700,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -35,8 +35,8 @@
         "steps": [
           {
             "result": {
-              "duration": 8325661600,
-              "status": "passed"
+              "duration": 3768500,
+              "status": "skipped"
             },
             "line": 5,
             "name": "the user is on the login page",
@@ -47,44 +47,50 @@
           },
           {
             "result": {
-              "duration": 3645452200,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
-            "name": "the users enter the user information",
-            "match": {
-              "location": "LoginStepDefs.the_users_enter_the_user_information()"
+            "name": "the users enter user information",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 7,
+            "name": "the user navigates to Talk",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5011278800,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 7,
-            "name": "the user should be able to login",
-            "match": {
-              "location": "LoginStepDefs.the_user_should_be_able_to_login()"
-            },
+            "line": 8,
+            "name": "the url should be expected Talk url",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@login"
+            "name": "@talk"
+          },
+          {
+            "name": "@wip"
           }
         ]
       }
     ],
-    "name": "User should be able to login",
+    "name": "Navigation Menu",
     "description": "",
-    "id": "user-should-be-able-to-login",
+    "id": "navigation-menu",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
+    "uri": "file:src/test/resources/features/Talk.feature",
     "tags": [
       {
-        "name": "@login",
+        "name": "@talk",
         "type": "Tag",
         "location": {
           "line": 1,

@@ -1,26 +1,29 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Talk.feature");
 formatter.feature({
-  "name": "User should be able to login",
+  "name": "Navigation Menu",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@login"
+      "name": "@talk"
     }
   ]
 });
 formatter.scenario({
-  "name": "Login as a user",
+  "name": "navigate to Talk",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@login"
+      "name": "@talk"
+    },
+    {
+      "name": "@wip"
     }
   ]
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "the user is on the login page",
@@ -30,29 +33,33 @@ formatter.match({
   "location": "LoginStepDefs.the_user_is_on_the_login_page()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "the users enter the user information",
+  "name": "the users enter user information",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "the user navigates to Talk",
   "keyword": "When "
 });
-formatter.match({
-  "location": "LoginStepDefs.the_users_enter_the_user_information()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "the user should be able to login",
+  "name": "the url should be expected Talk url",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "LoginStepDefs.the_user_should_be_able_to_login()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });

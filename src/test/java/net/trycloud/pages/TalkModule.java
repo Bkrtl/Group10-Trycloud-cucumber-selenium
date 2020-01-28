@@ -1,4 +1,6 @@
 package net.trycloud.pages;
 
-public class TalkModule {
+public class TalkModule extends LoginPage{
+
+
 }
