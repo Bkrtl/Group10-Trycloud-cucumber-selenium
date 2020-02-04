@@ -3,27 +3,84 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-01-28T13:08:21.340Z",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12162141600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4917772800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the users enter the user information",
+            "match": {
+              "location": "LoginStepDefs.the_users_enter_the_user_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5708557100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user navigates to Talk",
+            "match": {
+              "location": "TalkSteptDefs.the_user_navigates_to_Talk()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2013759200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the url should be expected Talk url",
+            "match": {
+              "location": "TalkSteptDefs.the_url_should_be_expected_Talk_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-04T19:20:36.319Z",
         "before": [
           {
             "result": {
-              "duration": 1109200,
-              "status": "skipped"
+              "duration": 1762700,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp()"
             }
           }
         ],
-        "line": 4,
-        "name": "navigate to Talk",
+        "line": 12,
+        "name": "The user should be able to start a conversation",
         "description": "",
-        "id": "navigation-menu;navigate-to-talk",
+        "id": "navigate-to-talk-module;the-user-should-be-able-to-start-a-conversation",
         "after": [
           {
             "result": {
-              "duration": 60700,
-              "status": "skipped"
+              "duration": 1251891500,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -35,10 +92,76 @@
         "steps": [
           {
             "result": {
-              "duration": 3768500,
-              "status": "skipped"
+              "duration": 339041100,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 13,
+            "name": "the user clicks on new conversation",
+            "match": {
+              "location": "TalkSteptDefs.the_user_clicks_on_new_conversation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1069819200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user types \"Employee100\" and clicks",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employee100\"",
+                  "offset": 15
+                }
+              ],
+              "location": "TalkSteptDefs.the_user_types_and_clicks(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1267912200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the messages \"You created the conversation\" \"You added Employee100\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You created the conversation\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"You added Employee100\"",
+                  "offset": 44
+                }
+              ],
+              "location": "TalkSteptDefs.the_messages_should_be_displayed(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Talk"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7807006700,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "the user is on the login page",
             "match": {
               "location": "LoginStepDefs.the_user_is_on_the_login_page()"
@@ -47,50 +170,125 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4495546400,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "the users enter user information",
-            "match": {},
+            "line": 8,
+            "name": "the users enter the user information",
+            "match": {
+              "location": "LoginStepDefs.the_users_enter_the_user_information()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 5762864200,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "the user navigates to Talk",
-            "match": {},
+            "match": {
+              "location": "TalkSteptDefs.the_user_navigates_to_Talk()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2013265200,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "the url should be expected Talk url",
-            "match": {},
+            "match": {
+              "location": "TalkSteptDefs.the_url_should_be_expected_Talk_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-04T19:21:05.205Z",
+        "before": [
+          {
+            "result": {
+              "duration": 436600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "The user should be able to delete a conversation",
+        "description": "",
+        "id": "navigate-to-talk-module;the-user-should-be-able-to-delete-a-conversation",
+        "after": [
+          {
+            "result": {
+              "duration": 1152934800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 259192600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks on the three dots next to the first conversation",
+            "match": {
+              "location": "TalkSteptDefs.the_user_clicks_on_the_three_dots_next_to_the_first_conversation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232494600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks on delete conversation from the dropdown",
+            "match": {
+              "location": "TalkSteptDefs.clicks_on_delete_conversation_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25155600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the number of conversations should be one less",
+            "match": {
+              "location": "TalkSteptDefs.the_number_of_conversations_should_be_one_less()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@talk"
-          },
-          {
-            "name": "@wip"
+            "name": "@Talk"
           }
         ]
       }
     ],
-    "name": "Navigation Menu",
+    "name": "Navigate to Talk module",
     "description": "",
-    "id": "navigation-menu",
+    "id": "navigate-to-talk-module",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Talk.feature",
+    "uri": "file:src/test/resources/features/NavigateTalk.feature",
     "tags": [
       {
-        "name": "@talk",
+        "name": "@Talk",
         "type": "Tag",
         "location": {
           "line": 1,

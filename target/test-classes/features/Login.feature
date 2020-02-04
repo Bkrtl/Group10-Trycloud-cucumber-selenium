@@ -5,5 +5,3 @@ Feature: User should be able to login
     Given the user is on the login page
     When the users enter the user information
     Then the user should be able to login
-
-

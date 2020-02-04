@@ -1,8 +1,12 @@
+/Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/pages/DashboardPage.java
 /Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/runners/CukesRunner.java
 /Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/step_definitions/Hooks.java
+/Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/pages/BasePage.java
+/Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/step_definitions/ActivityStepDefs.java
 /Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/step_definitions/LoginStepDefs.java
 /Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/pages/LoginPage.java
 /Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/utilities/BrowserUtils.java
 /Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/utilities/ConfigurationReader.java
 /Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/utilities/Driver.java
 /Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/runners/FailedTestRunner.java
+/Users/bmkrtl/IdeaProjects/Group10-Trycloud-cucumber-selenium/src/test/java/net/trycloud/pages/ActivityPage.java
